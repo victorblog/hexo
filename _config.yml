@@ -140,7 +140,7 @@ live2d:
 
 #是否开启访问量统计功能(不蒜子)
 busuanzi:
-	enable: true
+	enable: truegit push -u origin master
 	#分类菜单
 	
 jsonContent:
