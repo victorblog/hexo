@@ -12,8 +12,8 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://github.com/AnonymousDQ/VictorBlog.github.io.git
-root: /VictorBlog.github.io/
+url: https://github.com/AnonymousDQ/blog.github.io
+root: /blog.github.io/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -103,7 +103,7 @@ feed:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/AnonymousDQ/VictorBlog.github.io.git
+  repo: https://github.com/AnonymousDQ/blog.github.io.git
   branch: master
 
 # Live2D

@@ -3,5 +3,6 @@
 ```shell
 hexo clean
 hexo s -g
+hexo d
 ```
 
