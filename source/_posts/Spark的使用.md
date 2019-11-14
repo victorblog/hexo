@@ -94,7 +94,7 @@ lhttp://victor:8081/
 
 - 在内部，Spark Streaming接收到实时数据流同时将其划分为分批，也就是微批处理。这些数据的分批将会被Spark的引擎所处理而生成同样按批次形式的最终流。
 
-  ![](Spark的使用/spark streaming.png)
+  ![](Spark的使用/spark-streaming.png)
 
 - Spark Streaming提供了被成为离散化或者DStream的高层抽象，这个高层抽象用于表示数据的连续流。
 
