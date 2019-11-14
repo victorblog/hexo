@@ -1,13 +1,11 @@
 ---
-title: Hive的使用
+title: Hive基本概念
 date: 2019.10.01 10:06
 tags:
   - 大数据
 description: Hive的使用
 copyright: true
 ---
-
-
 
 # Hive基本概念
 
@@ -65,7 +63,7 @@ Hive分析数据底层的实现是MapReduce
 
 ### 1.3、Hive架构原理
 
-![Hive架构原理](images/HIve架构原理图.png)
+![](Hive1/Hive.png)
 
 CLI：命令行接口，以命令行的形式输入SQL语句进行数据操作，有点类似shell
 

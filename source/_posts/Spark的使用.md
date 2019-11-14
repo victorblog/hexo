@@ -5,6 +5,8 @@ tags:
   - 大数据
 description: Spark的学习
 copyright: true
+top: 1
+
 ---
 
 # 一、Spark Core的学习
@@ -37,7 +39,7 @@ cp slaves.template slaves
 vim slaves
 ```
 
-![](images/spark-images/spark-env.sh配置.png)
+![](Spark的使用/spark-env.sh配置.png)
 
 #### 2、首先要有jdk，scala
 
@@ -48,7 +50,7 @@ vim ~/.bashrc
 source ~/.bashrc
 ```
 
-![](images/spark-images/spark相关环境变量配置.png)
+![](Spark的使用/spark相关环境变量配置.png)
 
 #### 3、操作spark并启动
 
@@ -72,7 +74,7 @@ ps -e|grep ssh
 lhttp://victor:8081/
 ```
 
-![](images/spark-images/ssh安装.png)
+![](Spark的使用/ssh安装.png)
 
 - 启动spark-shell
 
@@ -88,11 +90,11 @@ lhttp://victor:8081/
 
 - Spark流是对于Spark核心API的扩展，从而支持对于实时数据流的可扩展，高吞吐量和容错性流处理。数据可以由多个源取的，比如Kafka，Flume，ZeroMQ，或者TCP接口等。可以同时使用比如map，reduce，join和window这样的高层接口描述的复杂算法进行处理。最终，处理过得数据可以保存到HDFS，数据库等。
 
-  ![img](https://upload-images.jianshu.io/upload_images/468490-007f03d8ec5379c1.png?imageMogr2/auto-orient/strip|imageView2/2/format/webp)
+  ![](Spark的使用/spark.png)
 
 - 在内部，Spark Streaming接收到实时数据流同时将其划分为分批，也就是微批处理。这些数据的分批将会被Spark的引擎所处理而生成同样按批次形式的最终流。
 
-  ![img](https://upload-images.jianshu.io/upload_images/468490-f1f8f89aa0f6604e.png?imageMogr2/auto-orient/strip|imageView2/2/format/webp)
+  ![](Spark的使用/spark streaming.png)
 
 - Spark Streaming提供了被成为离散化或者DStream的高层抽象，这个高层抽象用于表示数据的连续流。
 
@@ -417,6 +419,7 @@ class ContainsError implements Function<String,Boolean>{
     RDD.distinct()操作的开销很大，它需要将所有的数据通过网络进行混洗shuffle，来确保每个元素只有一份。
 
   - union,合并操作
+
   - subtract:移除一些数据。
 
   - intersection:求2个RDD共同的元素

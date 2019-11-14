@@ -28,11 +28,5 @@ Hive中，提供了丰富的内置函数，比如<font color=red>trim(),cast(),m
 
 使用UDF实现对String类型的字符串取HashMD5
 
-```java
-
-```
-
-
-
 ### 3、GenericUDF
 

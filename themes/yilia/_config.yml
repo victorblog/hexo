@@ -184,7 +184,7 @@ since: 2018
 # color: black|blue|green|orange|pink|purple|red|silver|white|yellow|
 progressBar:
   enable: true
-  type: 'loading-bar'  # Keep Quotes | 保留引号避免出错(某些type会导致样式重叠排版错误)
+  type: 'minimal'  # Keep Quotes | 保留引号避免出错(某些type会导致样式重叠排版错误)
   color: blue
 
 # Apple Touch icon 苹果图标(关闭请设置为false)

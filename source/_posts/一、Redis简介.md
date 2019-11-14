@@ -7,8 +7,6 @@ description: Redis的使用
 copyright: true
 ---
 
-
-
 # 一、简介
 
 Redis是速度非常快的非关系型(NoSQL)内存键值数据库。可以存储键和5种不同类型的值之间的映射。

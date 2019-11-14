@@ -46,8 +46,6 @@ sudo docker pull mysql:8.0.18
 sudo docker image rm mysql:8.0.18
 ```
 
-<!--more-->
-
 #### 4、使用docker安装并运行nginx
 
 ```shell
