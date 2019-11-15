@@ -1,5 +1,6 @@
-## VictorDan的个人博客
+## VictorDan的个人博客源码
 
+## 发布到github静态网页的命令
 ```shell
 hexo clean
 hexo s -g
@@ -8,5 +9,5 @@ hexo d
 
 # 访问地址：
 
-https://anonymousdq.github.io/victor.github.io/
+https://victorblog.github.io/
 
