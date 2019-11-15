@@ -34,18 +34,18 @@ new_post_name: :title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link:
-  enable: true # Open external links in new tab
+  enable: false # Open external links in new tab
   field: site # Apply to the whole site
   exclude: ''
 filename_case: 0
-render_drafts: false
+render_drafts: true #false
 post_asset_folder: true
-relative_link: false
+relative_link: true #false
 future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true #false
   tab_replace: ''
 
 # Home page setting
@@ -141,8 +141,8 @@ live2d:
 #是否开启访问量统计功能(不蒜子)
 busuanzi:
 	enable: truegit push -u origin master
-	#分类菜单
 	
+#分类菜单
 jsonContent:
   file: content.json
   meta: false
@@ -155,9 +155,9 @@ jsonContent:
     raw: false
     content: false
     slug: false
-    updated: false
-    comments: false
-    link: true
+    updated: false 
+    comments: false 
+    link: true 
     permalink: false
     excerpt: false
     categories: false
