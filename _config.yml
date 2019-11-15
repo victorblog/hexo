@@ -12,7 +12,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://anonymousdq.github.io/victor.github.io/
+url: https://victorblog.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -91,7 +91,7 @@ ignore:
 ## Themes: https://hexo.io/themes/
 #theme: landscape
 theme: yilia
-plugins:	hexo-generator-feed
+plugins: hexo-generator-feed
 
 #Feed Atom
 feed:
@@ -103,7 +103,7 @@ feed:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/AnonymousDQ/victor.github.io.git
+  repo: https://github.com/victorblog/victorblog.github.io.git
   branch: master
 
 # Live2D

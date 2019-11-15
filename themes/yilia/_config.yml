@@ -1,9 +1,9 @@
 ﻿# Header-菜单
 menu:
-  主页: https://anonymousdq.github.io/victor.github.io/
+  主页: /
   技术笔记: https://anonymousdq.github.io/
   #个人简历: https://zhousiwei.gitee.io/cv/
-  大数据: https://anonymousdq.github.io/victor.github.io/tags/大数据/
+  大数据: /tags/大数据/
   Linux: /tags/Linux
   Java: /tags/Java
   AI: /tags/AI
@@ -159,7 +159,7 @@ clickLove:
 # GitHub Ribbons(https://github.blog/2008-12-19-github-ribbons/)
 github:
   # (关闭请设置为false)
-  url: https://github.com/AnonymousDQ
+  url: https://github.com/victorblog/victorblog.github.io.git
 
 # 页脚 Litten(此配置项已弃用)
 # 帮助我们让更多人可以更方便使用Hexo，请尽量不要修改此主题配置
