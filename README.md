@@ -148,7 +148,7 @@ hexo d
 # 访问地址：
 https://victorblog.github.io/
 
-#.gitignore文件不起作用
+# .gitignore文件不起作用
 ```shell
 git rm -r --cached .
 git add .
