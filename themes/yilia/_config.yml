@@ -1,12 +1,12 @@
 ﻿# Header-菜单
 menu:
   主页: /
-  技术笔记: https://anonymousdq.github.io/
+  技术笔记: https://www.cnblogs.com/drq1/
   #个人简历: https://zhousiwei.gitee.io/cv/
   大数据: /tags/大数据/
   Linux: /tags/Linux
   Java: /tags/Java
-  AI: /tags/AI
+  TensorFlow: https://anonymousdq.github.io/categories/TensorFlow/
 
   
 
