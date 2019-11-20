@@ -1,6 +1,6 @@
 ---
 title: Java并发编程
-date: 2019.11.01 10:06
+date: 2018.08.01 10:06
 tags:
   - Java
 description: Java并发编程
@@ -217,7 +217,39 @@ public class TestRunnable implements Runnable {
 
 ```
 
+## 6、ThreadLocal
 
+​		线程本地存储。ThreadLocal的作用是提供线程内的局部变量，<font color=red>这种变量在线程的生命周期内起作用，减少同一个线程内多个函数或者一个公共变量的传递复杂度</font>。
+
+#### 6.1、ThreadLocalMap
+
+- 每个线程中都有一个自己的ThreadLocalMap类对象，可以将线程自己的对象保持到其中，各管各的，线程可以正确的访问到自己的对象。
+
+- 将一个公用的ThreadLocal静态实例作为key，将不同对象的引用保存到不同线程的ThreadLocalMap中，然后在线程执行的各处通过这个静态ThreadLocal实例的get()方法取的自己线程保存的对象，避免了将这个对象作为参数传递的麻烦。
+
+- ThreadLocalMap就是线程里的一个属性，在Thread类定义
+
+  ```java
+  ThreadLocal.ThreadLocalMap threadLocals=null;
+  ```
+
+- 最常见的ThreadLocal使用场景，解决数据库连接，Session管理
+
+  ```java
+  private static final ThreadLocal local=new ThreadLocal();
+      public static Session getSession(){
+          Session s = (Session) local.get();
+          try{
+              if(s==null){
+                  s= getSession()；
+                  local.set(s);
+              }
+          }catch (HibernateException e){
+  
+          }
+          return s;
+      }
+  ```
 
 # 二、Dubbo的知识点
 
