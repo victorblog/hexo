@@ -1,6 +1,6 @@
 ---
 title: Hive基本概念
-date: 2019.10.01 10:06
+date: 2018.10.02 10:06
 tags:
   - 大数据
 description: Hive的使用
