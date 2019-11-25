@@ -51,7 +51,7 @@ copyright: true
 
 ### 11、总结
 
-![](Spring-Bean生命周期/Spring Bean的生命周期.png)
+![](Spring-Bean生命周期/Spring-Bean的生命周期.png)
 
 bean的配置文件中，bean标签有2个重要属性
 
