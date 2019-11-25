@@ -1,15 +1,15 @@
 ---
-title: Spark的学习
+title: Spark的使用
 date: 2018.10.04 10:06
 tags:
   - 大数据
-description: Spark的学习
+description: Spark的使用
 copyright: true
 toc: true
 top: 1
 ---
 
-# 一、Spark Core的学习
+# 一、Spark Core的使用
 
 #### 1、下载并安装Spark
 
