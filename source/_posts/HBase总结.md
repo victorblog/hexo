@@ -1,7 +1,10 @@
 ---
-title: HBase总结
-date: 2019-12-11 19:07:49
-tags: 
+title: HBase
+date: 2017-10-04 11:24:39
+tags:
+- 大数据
+toc: true
+copyright: true
 ---
 
 ## 一、分布式结构化存储系统

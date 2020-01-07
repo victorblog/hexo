@@ -1,6 +1,6 @@
 ---
 title: Hive的使用
-date: 2018.10.01 13:06
+date: 2018.01.01 13:06
 tags:
   - 大数据
 description: Hive的使用
