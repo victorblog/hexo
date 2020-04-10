@@ -836,6 +836,8 @@ export PATH=${SCALA_HOME}/bin:$PATH
 #Spark
 export SPARK_HOME=/usr/spark/spark-2.4.4-bin-hadoop2.7
 export PATH=${SPARK_HOME}/bin:$PATH
+#启动spark(首先确保配置好jdk，scala，以及spark才能使用spark-shell命令启动)
+spark-shell
 #保存.bashrc
 source ~/.bashrc
 ```

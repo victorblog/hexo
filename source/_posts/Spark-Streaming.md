@@ -1,7 +1,11 @@
 ---
-title: Spark Streaming
-date: 2020-01-17 13:46:31
+title: Spark Streaming的使用
+date: 2018.10.05 10:06
 tags:
+  - 大数据
+description: Spark Streaming的使用
+copyright: true
+toc: true
 ---
 
 ## 一、Spark Streaming
