@@ -3,10 +3,15 @@ menu:
   主页: /
   技术笔记: https://www.cnblogs.com/drq1/
   #个人简历: https://zhousiwei.gitee.io/cv/
-  大数据: /tags/大数据/
-  Linux: /tags/Linux
   Java: /tags/Java
+  大数据: /tags/大数据/
+  分布式中间件: /tags/分布式中间件
+  DevOps: /tags/DevOps
+  Git: /tags/Git
   TensorFlow: https://anonymousdq.github.io/categories/TensorFlow/
+  计算机基础: /tags/计算机基础/
+  杂文: /tags/杂文
+  
 
   
 
@@ -114,10 +119,10 @@ disqus: false
 gitment_owner: false
 # 是否使用官方js(false可以提升访问速度，本地修改过一部分的js，官方js可能会出现服务器不稳定，不太建议使用)
 gitment_remote: false
-gitment_repo:         #存储评论的 repo name(需要在Github创建)
+gitment_repo: victorblog.github.io        #存储评论的 repo name(需要在Github创建)
 gitment_oauth:
-  client_id: ''           #client ID
-  client_secret: ''       #client secret
+  client_id: 05b1020de8841ae878d5           #client ID
+  client_secret: 5d4973c54cb6716045759e019a9fbbe9b0456069       #client secret
 
 # 4、Giteement----【国内用户建议使用这个，相对比较快】
 # 关于如何集成:https://www.jianshu.com/p/f5c4633524c7
@@ -132,10 +137,10 @@ giteement:
   oauth_uri: https://cors-anywhere.herokuapp.com/https://gitee.com/oauth/token
   giteeID: victorblog
   # 存储评论的 repo name(需要在码云仓库创建公开仓库)
-  repo: victorblog
+  repo: victorblog.comment
   gitment_oauth:
-    client_id: 'e2d6da671450e4ff6cc059016d4d75f2b680b0c1fe1b24e71b1bd74344f8e657'           #client ID
-    client_secret: 'a7e5b035c17a4b30e6b3f00db2fff2df5a5c209c3db66b6846c6fb19b521c8f0'       #client secret
+    client_id: '5f82ec3ce4c4d4c4e6d2dcc14836d82dbd285a8b29d00b46e5fdda00be8bca93'           #client ID
+    client_secret: '4d2dfe2b3cbc4227ba7a369606a33c96f31ae5f36822ee8782baa725dde1bb41'       #client secret
 
 # 访问量统计功能(不蒜子)
 busuanzi:

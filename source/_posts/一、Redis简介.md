@@ -2,7 +2,7 @@
 title: Redis的使用
 date: 2017.08.21 10:06
 tags:
-  - Java
+  - 分布式中间件
 description: Redis的使用
 toc: true
 copyright: true

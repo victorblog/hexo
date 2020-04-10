@@ -3,6 +3,7 @@ title: Kafka的应用
 date: 2017-03-04 10:44:34
 tags:
 - 大数据
+- 分布式中间件
 toc: true
 copyright: true
 ---

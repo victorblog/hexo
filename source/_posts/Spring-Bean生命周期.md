@@ -162,3 +162,38 @@ public class PersonController{
 <bean name="daoFactory" factory-bean="daoFactory" factory-method="getFactoryDaoImpl"></bean>
 ```
 
+# 三、@Order注解使用
+
+- 使用@Order控制配置类的加载顺序
+
+- SpringBoot加载Bean的时候，有用到@Order注解
+- 通过@Order指定执行顺序，值越小，越先执行。
+- @Order注解常用来定义的AOP先于事务执行。
+- 如果@Order不标注数字，默认最低优先级，因为其默认值是int最大值。
+
+```java
+@Configuration
+@Component("xxxConfig")
+@Order(Ordered.HIGHEST_PRECEDENCE)
+public class XXXConfig {
+
+    @Value("${xxx.key.path}")
+    private String xxxKey;
+
+    @Value("${xxx.config.path}")
+    private String xxxConfig;
+
+    @PostConstruct
+    public void init() {
+        try {
+            File file = ResourceUtils.getFile(xxxKey);
+            xxxKey = file.getAbsolutePath();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+        .............
+    }
+
+}
+```
+

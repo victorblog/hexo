@@ -2,9 +2,7 @@
 title: Docker的使用
 date: 2017.11.01 10:06
 tags:
-  - Docker
-  - Java
-  - Linux
+  - DevOps
 description: Docker的使用
 toc: true
 copyright: true

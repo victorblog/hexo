@@ -2,7 +2,7 @@
 title: Linux常用命令
 date: 2015.11.01 10:06
 tags:
-  - Linux
+  - DevOps
 description: Linux常用命令
 toc: true
 copyright: true
@@ -138,6 +138,15 @@ copyright: true
   ```shell
   tail -f java.log
   cat .bashrc
+  ```
+
+- 修改hosts文件
+
+  ```shell
+  #为了线下稳定访问服务，配置hosts
+  sudo gedit /etc/hosts
+  #保存并重启网络
+  sudo /etc/init.d/networking restart
   ```
 
   

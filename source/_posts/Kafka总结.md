@@ -3,6 +3,7 @@ title: Kafka的总结
 date: 2017.03.04 10:06
 tags:
   - 大数据
+  - 分布式中间件
 description: Kafka的总结
 toc: true
 copyright: true

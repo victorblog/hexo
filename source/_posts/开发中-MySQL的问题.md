@@ -29,3 +29,12 @@ Insert ignore会忽略已存在的数据
 insert ignore into t_student(name,age,class) values("test",19,"计算机");
 ```
 
+#### 3、MySQL的表数据的导入导出
+
+```mysql
+#先把测试环境的数据导出到sql文件
+mysqldump -h192.168.1.1 -uadmin -padmin demo user_account > /opt/demo/dmp/user_account.sql
+#然后导入到生产环境
+mysql -h192.161.1.215 -uadmin -padmin demo < /opt/dmp/user_account.sql
+```
+
