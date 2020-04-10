@@ -8,7 +8,7 @@ toc: true
 copyright: true
 ---
 
-### 1、Maven中依赖的作用域scope的分类
+### 1、Maven中依赖作用域scope的分类
 
 Maven默认的依赖配置项中，scope的默认值是compile
 
