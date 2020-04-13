@@ -62,7 +62,7 @@ mq.basic.info.exchange.name=${mq.env}.mq.basic.info.exchange
 mq.basic.info.routing.key=${mq.env}.mq.basic.info.routing.key
 ```
 
-## 3、基于DirectExchange的消息模型
+## 3、RabbitMQ的简单使用
 
 ### 3.1、字节类型消息
 
