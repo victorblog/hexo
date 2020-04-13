@@ -2,7 +2,7 @@
 menu:
   主页: /
   技术笔记: https://www.cnblogs.com/drq1/
-  #个人简历: https://zhousiwei.gitee.io/cv/
+  个人简历: https://victorblog.github.io/resume.github.io/
   Java: /tags/Java
   大数据: /tags/大数据/
   分布式中间件: /tags/分布式中间件
@@ -11,9 +11,9 @@ menu:
   TensorFlow: https://anonymousdq.github.io/categories/TensorFlow/
   计算机基础: /tags/计算机基础/
   杂文: /tags/杂文
-  
 
-  
+
+
 
 # subNav-子导航
 subNav:
