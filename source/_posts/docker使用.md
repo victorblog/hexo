@@ -168,6 +168,13 @@ http://localhost:15672
 用户名密码：guest guest
 #退出
 exit
+#rabbitmq的下一次启动
+#直接找到对应的Container ID
+sudo docker ps -a
+#然后启动命令
+sudo docker start 213a1c20682e
+#停止命令
+sudo docker stop 213a1c20682e
 ```
 
 

@@ -1,6 +1,6 @@
 ---
 title: Linux安装常用软件
-date: 2018.09.03 10:06
+date: 2018.05.11 10:06
 tags:
   - DevOps
 description: Linux安装常用软件
@@ -657,6 +657,16 @@ localhost:15672
 ![安装RabbitMQ](Linux安装常用软件/docker安装RabbitMQ.png)
 
 ![docker的RabbitMQ运行](Linux安装常用软件/docker运行RabbitMQ.png)
+
+```shell
+#下一次启动
+#找到对应的Container ID
+sudo docker ps -a
+#然后启动命令
+sudo docker start 213a1c20682e
+#停止命令
+sudo docker stop 213a1c20682e
+```
 
 #### 2、docker下的redis拉取
 
