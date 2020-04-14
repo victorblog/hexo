@@ -72,7 +72,7 @@ open_in_new:
 # 打赏type设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
 reward_type: 2
 # 打赏wording
-reward_wording: '谢谢你请我吃糖果'
+reward_wording: '请我喝杯咖啡吧'
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
 alipay: /img/alipay.JPG
 # 微信二维码图片地址
@@ -182,7 +182,7 @@ baidu_push: false
 copyright_type: 2
 
 # 网站成立年份(默认为 2018，若填入年份小于当前年份，则显示为 2018-2019 类似的格式)
-since: 2017
+since: 2015
 
 # Progress Bar | 页面加载进度条
 # Demo: http://github.hubspot.com/pace/docs/welcome/
@@ -200,7 +200,7 @@ apple_touch_icon: '/apple-touch-icon-180x180.png'
 
 # Tab Title Change | 标签页标题切换
 tab_title_change:
-  enable: true
+  enable: false
   left_tab_title: '(つェ⊂) 我藏好了哦~ '
   return_tab_title: '(*´∇｀*) 被你发现啦~ '
 
@@ -277,8 +277,6 @@ friends:
   技术笔记:  #网站名称
     #网站地址
     url: https://anonymousdq.github.io/
-    #网站图片(可忽略不写)
-    #img: https://zhousiwei.gitee.io/ibooks/favicon.ico
     #网站简介(可忽略不写)
     description: 记录工作和学习过程中的笔记：Java后端开发、Hadoop、Spark、微服务、Linux笔记、ElasticSearch、ELK日志分析
   GitHub:
@@ -287,6 +285,8 @@ friends:
     url: http://home.cnblogs.com/u/drq1/
   公众号:
     url: Victor的分享论坛
+  自建站:
+    url: https://www.waterlaw.top/
 
 # 关于我
 aboutme: 主要涉及技术：<br>Java后端开发、Hadoop、Spark、微服务、TensorFlow<br>AI、公众号开发、开源爱好者、Linux<br>大数据、DevOps、分布式中间件
