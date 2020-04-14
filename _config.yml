@@ -103,7 +103,9 @@ feed:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
+  #github的部署仓库位置，由于访问速度比较慢，切换为gitee
   repo: https://github.com/victorblog/victorblog.github.io.git
+  #repo: https://gitee.com/victorblog/blog.git
   branch: master
 
 # Live2D
@@ -141,7 +143,7 @@ live2d:
 #是否开启访问量统计功能(不蒜子)
 busuanzi:
 	enable: truegit push -u origin master
-	
+
 #分类菜单
 jsonContent:
   file: content.json
@@ -155,9 +157,9 @@ jsonContent:
     raw: false
     content: false
     slug: false
-    updated: false 
-    comments: false 
-    link: true 
+    updated: false
+    comments: false
+    link: true
     permalink: false
     excerpt: false
     categories: false
