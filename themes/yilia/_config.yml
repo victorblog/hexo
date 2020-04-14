@@ -122,8 +122,8 @@ gitment_owner: false
 gitment_remote: false
 gitment_repo: victorblog.github.io        #存储评论的 repo name(需要在Github创建)
 gitment_oauth:
-  client_id: 05b1020de8841ae878d5           #client ID
-  client_secret: 5d4973c54cb6716045759e019a9fbbe9b0456069       #client secret
+  client_id: 05b1020de8841ae878d5           #client IDclient_secret: 5d4973c54cb6716045759e019a9fbbe9b0456069       #client secret
+
 
 # 4、Giteement----【国内用户建议使用这个，相对比较快】
 # 关于如何集成:https://www.jianshu.com/p/f5c4633524c7

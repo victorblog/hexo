@@ -23,6 +23,16 @@ busuanzi:
 ```shell
 npm i hexo-generator-json-content --save
 ```
+#### 3.1、根目录的_config.yml，配置git仓库
+```shell
+sudo npm install --save hexo-deployer-git
+```
+```yaml
+deploy:
+  type: git
+  repo: https://gitee.com/xxx/xxx.git
+  branch: master
+```
 #### 3.1、根目录的_config.yml，并不是themes文件夹，加上如下代码
 ```yaml
 jsonContent:
