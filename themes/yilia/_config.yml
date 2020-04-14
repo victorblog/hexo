@@ -1,7 +1,8 @@
 ﻿# Header-菜单
 menu:
   主页: /
-  个人简历: https://victorblog.github.io/resume.github.io/
+  #个人简历github： https://victorblog.github.io/resume.github.io/
+  个人简历: http://victorblog.gitee.io/resume/
   Java: /tags/Java
   大数据: /tags/大数据/
   分布式中间件: /tags/分布式中间件
